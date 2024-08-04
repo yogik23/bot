@@ -3,11 +3,22 @@
 
 ## POP BOT
 
-[Link Bot](https://t.me/PoPPtothemoon_bot/moon?startapp=1032698442) 
+ 
+ * Auto Claim
+ * Auto Claim Invite
+ * Auto Start Farming
+ * Auto Check-in
+ * Auto Expolore Planet
+ * Multi Account
 
-Cara Ambil Query \
-Open game di kiwi browser, titik 3 dev tool \
-Application > session storage > https://planet.popp.club > __telegram__initParams
+[Link Bot](https://t.me/PoPPtothemoon_bot/moon?startapp=1032698442)
+
+Cara Ambil Query 
+- Download ekstensi Ignore X-Frame headers di kiwi browser
+https://chromewebstore.google.com/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe 
+- Open game di kiwi browser, titik 3 dev tool 
+- Application > session storage > https://planet.popp.club > __telegram__initParams
+- Copy query_id=sampai ujung tanpa "
 
 
 ### Step 
@@ -60,15 +71,29 @@ dst
 
 ## NanonFish BOT
 
+ - Auto Combine Fish
+ - Auto Delete Fish
+ - Multi Account
+ - Multi Thread
+
 [Link Bot](https://t.me/NanonFishBot/NanonFish?startapp=aW52aXRlQ29kZT1vY2twMmNpYw) 
 
-Cara Ambil Query \
-Open game di kiwi browser titik 3 dev tool \
-application > session storage >https://happy-aquarium.xboost.io > __telegram__initParams > 
-
+Cara Ambil Query 
+- Download ekstensi [Ignore X-Frame headers](https://chromewebstore.google.com/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe)
+- Open game di kiwi browser titik 3 dev tool 
+- Application > session storage >https://happy-aquarium.xboost.io > __telegram__initParams >
+- Copy query_id=sampai ujung tanpa "
 
 ### Step 
 
+* Update & Upgrade
+```
+pkg update && pkg upgrade -y
+```
+* Install Module
+```
+pip install aiohttp
+```
 * Clone GitHub
 ```
 git clone https://github.com/adearmanwijaya/nanonfish
@@ -101,11 +126,18 @@ dst
 
 ## Banana BOT
 
+ - Auto Tap
+ - Auto Claim
+ - Auto Sell (Jika quantity lebih dari 1)
+
+
 [Link Bot](https://t.me/OfficialBananaBot/banana?startapp=referral=AIEROU)
 
-Cara Ambil Query \
-Open game di kiwi browser, titik 3 dev tool \
-Application > session storage > https://banana.carv.io > __telegram__initParams
+Cara Ambil Query 
+- Download ekstensi [Ignore X-Frame headers](https://chromewebstore.google.com/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe)
+- Open game di kiwi browser, titik 3 dev tool 
+- Application > session storage > https://banana.carv.io > __telegram__initParams
+- Copy query_id=sampai ujung tanpa "
 
 
 ### Step
@@ -120,7 +152,7 @@ cd banana
 ```
 * Install Module
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 * Submit Query (Polos tanpa tanda ")
 ```
@@ -146,6 +178,9 @@ dst
 
 ## Dogs BOT
 
+ - Auto Clear Task
+
+   
 [Link Bot](https://t.me/dogshouse_bot/join?startapp=-QWPH79eQ6aUJ-tfBFoYvw) 
 
 Ambil id telegram > [Start Bot](https:t.me/Check_Telegram_IDBot) \
