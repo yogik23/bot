@@ -16,11 +16,33 @@ Cara Ambil Query Lewat PC
 ```
 pkg install python -y
 ```
-### Jika Eror Ketika menginstall Module masuk ke mode venve
+### Jika Eror Ketika menginstall Module masuk ke mode venv
 ```
 python -m venv venv && source venv/bin/activate
 ```
 ```Install Ulang Module```
+
+
+## Catopia Autobot
+ * Auto Menanam dan Panen
+ * Countdown Berdasarkan Waktu Panen
+ * Auto Buy,Open Chest, dan Upgrade
+ * Auto use Booster
+ * Auto Claim coin
+
+[Link Bot](https://t.me/catopia_game_bot/catopia?startapp=CatRefIdD30D2E98)
+
+* clone repo & masuk ke folder & masuk ke mode venv & Install Module
+```
+git clone https://github.com/gilkur23/catopia && cd catopia && python -m venv venv && source venv/bin/activate && pip install requests colorama pytz 
+```
+* Jalankan Bot
+```
+python cato.py "query_id=AAFKlasldada"
+```
+```ganti ke query_id kalian```
+* 1 sesion 1 akun banyak akun banyak sesi
+
 
 ## Agent301 Autobot
  * Auto Complete tasks
