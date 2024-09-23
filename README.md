@@ -1,5 +1,60 @@
 # **BOT TAEK KUCING**
 
+Cara Ambil Query Lewat Kiwi
+- Download ekstensi [Ignore X-Frame headers](https://chromewebstore.google.com/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe)
+- Open game di kiwi browser titik 3 dev tool 
+- Application > session storage >https://happy-aquarium.xboost.io > __telegram__initParams >
+- Copy query_id=sampai ujung tanpa " \
+
+Cara Ambil Query Lewat PC
+- Setting > Advanced > Experimental settings > Enable webview inspecting(hidupkan)
+- Buka Bot >Klik kanan inspect >Application >Session Storage >initParam > tgwebapp
+ (copy dari query_id) \
+
+
+## Install Python di Termux
+```
+pkg install python -y
+```
+### Jika Eror Ketika menginstall Module masuk ke mode venve
+```
+python -m venv venv && source venv/bin/activate
+```
+```Install Ulang Module```
+
+## Agent301 Autobot
+ * Auto Complete tasks
+ * Auto Do task to get wheel ticket
+ * Auto Spin Wheel
+
+[Link Bot](https://t.me/Agent301Bot/app?startapp=onetime1032698442)
+
+* clone repo & masuk ke folder
+```
+git clone https://github.com/smart-airdrop/agent301-claimer.git && cd agent301-claimer
+```
+* Install Module
+```
+pip install -r requirements.txt
+```
+* submit query di file ```data.txt```
+```
+nano data.txt
+```
+* format query
+```
+query_id=AAE1
+query_id=AAE2
+```
+* Save file yg submit
+```ctrl + x + y > Enter```
+* Jalankan Bot
+```
+python bot.py
+```
+* Stop bot
+```ctrl + C```
+
 
 ## POP BOT
 
@@ -13,43 +68,19 @@
 
 [Link Bot](https://t.me/PoPPtothemoon_bot/moon?startapp=1032698442)
 
-Cara Ambil Query 
-- Download ekstensi Ignore X-Frame headers di kiwi browser
-https://chromewebstore.google.com/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe 
-- Open game di kiwi browser, titik 3 dev tool 
-- Application > session storage > https://planet.popp.club > __telegram__initParams
-- Copy query_id=sampai ujung tanpa "
 
-
-### Step 
-
-* Update & Upgrade (stuck pencet y Enter)
+* clone repo & masuk ke folder
 ```
-pkg update && pkg upgrade -y
+git clone https://github.com/adearmanwijaya/popp && cd popp
 ```
-* Install Python
-```
-pkg install python -y
-```
-* Install Module
-```
-pip install requests colorama
-```
-* Install Git
-```
-pkg install git
-```
-* Clone GitHub
-```
-git clone https://github.com/adearmanwijaya/popp
-```
-* Masuk Folder Popp
-```
-cd popp
-```
-* Submit Query (Polos tanpa tanda ") 
+* Submit Query di ```query.txt```
 ```
 nano query.txt
+```
+* format query
+```
+query_id=AAE1
+query_id=AAE2
 ```
 * Save file yg submit
 ```ctrl + x + y > Enter```
@@ -59,14 +90,6 @@ python popp.py
 ```
 * Stop bot
 ```ctrl + C```
-
-Cara Submit Query Multi Akun \
-query1 \
-query2 \
-query3 \
-dst
-
-
 
 
 ## NanonFish BOT
@@ -78,33 +101,23 @@ dst
 
 [Link Bot](https://t.me/NanonFishBot/NanonFish?startapp=aW52aXRlQ29kZT1vY2twMmNpYw) 
 
-Cara Ambil Query 
-- Download ekstensi [Ignore X-Frame headers](https://chromewebstore.google.com/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe)
-- Open game di kiwi browser titik 3 dev tool 
-- Application > session storage >https://happy-aquarium.xboost.io > __telegram__initParams >
-- Copy query_id=sampai ujung tanpa "
 
-### Step 
-
-* Update & Upgrade
+* clone repo & masuk ke folder
 ```
-pkg update && pkg upgrade -y
+git clone https://github.com/adearmanwijaya/nanonfish && cd nanonfish
 ```
 * Install Module
 ```
-pip install aiohttp
+pip install aiohttp && pip install colorama
 ```
-* Clone GitHub
-```
-git clone https://github.com/adearmanwijaya/nanonfish
-```
-* Masuk Folder Nanonfish
-```
-cd nanonfish
-```
-* Submit Query (Polos tanpa tanda ") 
+* Submit Query di ```query.txt```
 ```
 nano query.txt
+```
+* format query
+```
+query_id=AAE1
+query_id=AAE2
 ```
 * Save file yg submit
 ```ctrl + x + y > Enter```
@@ -115,107 +128,72 @@ python ikan.py
 * Stop bot
 ```ctrl + C```
 
-Cara Submit Query Multi Akun \
-query1 \
-query2 \
-query3 \
-dst
-
-
-
 
 ## Banana BOT
 
+ - Auto Complete tasks
+ - Auto Claims 
+ - Auto Equips
  - Auto Tap
- - Auto Claim
- - Auto Sell (Jika quantity lebih dari 1)
 
 
 [Link Bot](https://t.me/OfficialBananaBot/banana?startapp=referral=AIEROU)
 
-Cara Ambil Query 
-- Download ekstensi [Ignore X-Frame headers](https://chromewebstore.google.com/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe)
-- Open game di kiwi browser, titik 3 dev tool 
-- Application > session storage > https://banana.carv.io > __telegram__initParams
-- Copy query_id=sampai ujung tanpa "
-
 
 ### Step
 
-* Clone GitHub
+* clone repo & masuk ke folder
 ```
-git clone https://github.com/Shyzg/banana
-```
-* Masuk Folder banana
-```
-cd banana
+git clone https://github.com/smart-airdrop/banana-claimer && cd banana-claimer
 ```
 * Install Module
 ```
 pip install -r requirements.txt
 ```
-* Submit Query (Polos tanpa tanda ")
-```
-nano tokens.txt
-```
-* Save file 
-```ctrl + x + y > Enter```
-* Jalankan Bot
-```
-python main.py
-```
-* Stop bot
-```ctrl + C```
-
-Cara Submit Query Multi Akun \
-query1 \
-query2 \
-query3 \
-dst
-
-
-
-
-## Dogs BOT
-
- - Auto Clear Task
-
-   
-[Link Bot](https://t.me/dogshouse_bot/join?startapp=-QWPH79eQ6aUJ-tfBFoYvw) 
-
-Ambil id telegram > [Start Bot](https:t.me/Check_Telegram_IDBot) \
-Ambil reff, Copy Link reff bot dog Ambil setelah startapp= \
-Contoh : ```https://t.me/dogshouse_bot/join?startapp=-QWPH79eQ6aUJ-tfBFoYvw``` \
-Yg diambil :```-QWPH79eQ6aUJ-tfBFoYvw```
-
-
-### Step 
-
-* Clone GitHub
-```
-git clone https://github.com/adearmanwijaya/dogs
-```
-* Masuk Folder dogs
-```
-cd dogs
-```
-* Submit ID telegram | ref (ex: ```12345|anjai```)
+* submit query di file ```data.txt```
 ```
 nano data.txt
 ```
-* Save file 
+* format query
+```
+query_id=AAE1
+query_id=AAE2
+```
+* Save file yg submit
 ```ctrl + x + y > Enter```
 * Jalankan Bot
 ```
-python dogs.py
+python bot.py
 ```
 * Stop bot
 ```ctrl + C```
 
-Cara Submit ID|REF Multi Akun \
-ID|REF \
-ID|REF \
-ID|REF \
-dst
 
-# #
+## Midas Autobot
+
+
+* clone repo & masuk ke folder
+```
+git clone https://github.com/gilanx04/midas-yielder.git && cd midas-yielder.git
+```
+* Install Module
+```
+pip install cloudscraper && pip install colorama && pip install requests
+```
+* submit query di file ```auth.txt```
+```
+nano auth.txt
+```
+* format query
+```
+query_id=AAE1
+query_id=AAE2
+```
+* Save file yg submit
+```ctrl + x + y > Enter```
+* Jalankan Bot
+```
+python midas.py
+```
+* Stop bot
+```ctrl + C```
